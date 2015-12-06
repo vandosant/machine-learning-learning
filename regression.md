@@ -13,9 +13,11 @@ y = f(x) + E(epsilon)
 
 Simple linear regression model:
 ### Straight Line
-f(x) = w0 + w1 * x
+f(x) = w0 + w1 * x  
 where w0, w1 represent regression coefficients (features)
+where w0 represents intercept
+where w1 represents slope
 
-Quality metric:
+Quality metric:  
 Residual sum of squares (RSS) - Add up errors from prediction to actual values
 RSS(w0,w1) = &#949;(y - [w0 + w1 * x])<sup>2</sup>
