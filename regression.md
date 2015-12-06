@@ -19,5 +19,9 @@ where w0 represents intercept
 where w1 represents slope
 
 Quality metric:  
-Residual sum of squares (RSS) - Add up errors from prediction to actual values
-RSS(w0,w1) = &#949;(y - [w0 + w1 * x])<sup>2</sup>
+Residual sum of squares (RSS) - Add up errors from prediction to actual values  
+RSS(w0,w1) = &#949;(y - [w0 + w1 * x])<sup>2</sup>  
+Choose the model that minimizes RSS.
+
+Using the model:
+Plug x into the straight line equation.
