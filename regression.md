@@ -34,7 +34,18 @@ Magnitude only has meaning for the specific units of input and output (e.g. $, s
 ###Algorithms for fitting models
 Minimize cost for parameters.  
 
+###Optimizations
 Convex/concave functions:
+- Solution is unique.
 -   Concave - line lies below function
 -   Convex - line lies above function
 
+Find the max or min analytically
+- concave: max g(w) [derivative = 0]
+- convex: min g(w) [derivative = 0]
+- neither: no solution to derivative = 0 (multiple answers)
+
+Derivative example:
+g(w) = 5 - (w-10)<sup>2</sup>
+dg(w) / dw = 0 - 2(w-10)<sup>1</sup> * 1
+           = -2w + 20
