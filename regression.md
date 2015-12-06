@@ -31,9 +31,6 @@ Predicting x for some value; plug y into the equation. (y - w0) / w1
 
 Magnitude only has meaning for the specific units of input and output (e.g. $, sq. ft)
 
-###Algorithms for fitting models
-Minimize cost for parameters.  
-
 ###Optimizations
 Convex/concave functions:
 - Solution is unique.
@@ -62,7 +59,28 @@ While derivative != 0,
 Decrease if derivative is positive.  
 Increase if derivative is negative.
 
-Step size:  
+Convergence criteria:  
+1. Step size
 Fixed / constant
 - Good for strongly convexed
 Decreasing / schedule
+2. Optimum convergence
+When derivative < some threshhold [very "small"]
+
+Gradients:  
+Derivatives  
+- Take partial derivative of each value with w as a constant
+- Output a vector of parameters
+Countour plots  
+- Plot function as a plane
+
+Gradient descent:  
+While gradient != 0  
+Decrease if gradient is positive.  
+Increase if gradient is negative.
+
+###Algorithms for fitting models
+Minimize cost for parameters.  
+
+- Compute the gradient
+Sum the derivatives for each shared function
