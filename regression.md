@@ -18,4 +18,4 @@ where w0, w1 represent regression coefficients (features)
 
 Quality metric:
 Residual sum of squares (RSS) - Add up errors from prediction to actual values
-RSS(w0,w1) = (y - [wx + w1 * x])<sup>2</sup>
+RSS(w0,w1) = &#949;(y - [w0 + w1 * x])<sup>2</sup>
