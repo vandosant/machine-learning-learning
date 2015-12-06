@@ -11,17 +11,17 @@ y = f(x) + E(epsilon)
 2. Estimate a specific fit to data.
   - Find the model that fits data with minimal error.
 
-Simple linear regression model:
-### Straight Line
+###Simple linear regression model:
+Straight Line
 f(x) = w0 + w1 * x  
 where w0, w1 represent regression coefficients (features)
 where w0 represents intercept
 where w1 represents slope
 
-Quality metric:  
+###Quality metric:  
 Residual sum of squares (RSS) - Add up errors from prediction to actual values  
 RSS(w0,w1) = &#949;(y - [w0 + w1 * x])<sup>2</sup>  
 Choose the model that minimizes RSS.
 
-Using the model:
+###Using the model:  
 Plug x into the straight line equation.
