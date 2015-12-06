@@ -9,3 +9,4 @@ y = f(x) + E(epsilon)
 
 1. Which model f(x)? [quadratic]
 2. Estimate a specific fit to data.
+  - Find the model that fits data with minimal error.
