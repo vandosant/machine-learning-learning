@@ -45,7 +45,9 @@ Find the max or min analytically
 - convex: min g(w) [derivative = 0]
 - neither: no solution to derivative = 0 (multiple answers)
 
-Derivative example:
-g(w) = 5 - (w-10)<sup>2</sup>
-dg(w) / dw = 0 - 2(w-10)<sup>1</sup> * 1
-           = -2w + 20
+Derivative example:  
+g(w) = 5 - (w-10)<sup>2</sup>  
+dg(w) / dw = 0 - 2(w-10)<sup>1</sup> * 1  
+           = -2w + 20  
+           -2w + 20 = 0
+                    = 10
