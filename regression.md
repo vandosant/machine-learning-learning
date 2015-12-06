@@ -55,6 +55,5 @@ dg(w) / dw = 0 - 2(w-10)<sup>1</sup> * 1
 Hill climbing:  
 While derivative != 0,  
 Increase if derivative is positive.  
-Decrease if derivative is negative.
-
-
+Decrease if derivative is negative.  
+Where step size is last derivative.
