@@ -55,5 +55,14 @@ dg(w) / dw = 0 - 2(w-10)<sup>1</sup> * 1
 Hill climbing:  
 While derivative != 0,  
 Increase if derivative is positive.  
-Decrease if derivative is negative.  
-Where step size is last derivative.
+Decrease if derivative is negative.
+
+Hill descent:  
+While derivative != 0,  
+Decrease if derivative is positive.  
+Increase if derivative is negative.
+
+Step size:  
+Fixed / constant
+- Good for strongly convexed
+Decreasing / schedule
