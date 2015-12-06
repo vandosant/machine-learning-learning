@@ -10,3 +10,10 @@ y = f(x) + E(epsilon)
 1. Which model f(x)? [quadratic]
 2. Estimate a specific fit to data.
   - Find the model that fits data with minimal error.
+
+Simple linear regression model:
+### Straight Line
+f(x) = w0 + w1 * x
+where w0, w1 represent regression coefficients (features)
+
+Quality metric:
